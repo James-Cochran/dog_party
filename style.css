@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: #75e2e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: url("assets/park.jpg");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero img {
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 5px solid #048eaa;
+}
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #75e2e6;
+  border: none;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.dog-info {
+  height: 100%;
+  width: 35%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dog-info img {
+  border-radius: 50%;
+  border: 4px solid #048eaa;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.dog-info h2 {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+.dog-info p {
+  font-size: 1em;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.dog-info button {
+  padding: 10px 20px;
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: auto;
+  align-self: center;
+}
+
+footer {
+  background-color: #048eaa;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media img {
+  width: 35px;
+  height: 35px;
+}
